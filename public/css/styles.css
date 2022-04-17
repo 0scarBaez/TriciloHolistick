@@ -1,0 +1,78 @@
+
+:root{
+    --font: 'Raleway', sans-serif;
+
+    --color01: #8BC541;;
+    --white: rgb(255, 254, 252);
+    --black: #000;
+}
+main, body{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    box-sizing: border-box; /* esto para que no el padding no afecte el ancho de nuestros elementos */
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--font);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/* globales */
+
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4{
+    font-family: var(--font);
+
+}
+
+/* h1{
+    font-size: 4.8rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 3.2rem;
+}
+h4{
+    font-size: 2.8rem;
+} */
+
+img{
+    max-width: 100%;
+}
+
+/* utilidades */
+
+.no-margin{
+    margin: 0;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+ul{
+    padding: 0%;
+}
